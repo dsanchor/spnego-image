@@ -6,3 +6,6 @@ LABEL name="Spnego library" \
 
 # Copy libraries
 COPY libs /libs
+
+#Copy static login configuration
+COPY conf /conf
